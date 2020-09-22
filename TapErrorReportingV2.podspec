@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TapErrorReportingV2"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Tap error reporting library"
 
   # This description is used to generate tags and improve search results.
@@ -105,7 +105,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   spec.resources = "TapErrorReportingV2/TapErrorReportingV2/Resources/**/*.{xib,strings}"
-
+  spec.ios.resource_bundle = { 'ErrorReportingResources' => ['TapErrorReportingV2/TapErrorReportingV2/Resources/*.{xib}', 'TapErrorReporting/Resources/Localization/*.lproj'] }
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
