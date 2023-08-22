@@ -1,64 +1,55 @@
 PODS:
-  - SDWebImage/Core (5.9.1)
-  - SwiftLint (0.40.2)
-  - TapAdditionsKitV2 (0.0.3):
-    - SwiftLint
-    - TapSwiftFixes/Exceptions
-    - TapSwiftFixes/Threading
-  - TapAlertViewControllerV2 (0.0.1):
+  - TapAdditionsKitV2 (0.0.17):
+    - TapSwiftFixesV2
+  - TapAlertViewControllerV2 (0.0.3):
     - TapAdditionsKitV2
     - TapVisualEffectViewV2
-  - TapApplicationV2 (0.0.1):
-    - SwiftLint
+  - TapApplicationV2 (0.0.3):
     - TapAdditionsKitV2
-    - TapSwiftFixes/Threading
-  - TapBundleLocalization (1.0.3)
-  - TapNetworkManagerV2 (0.0.1):
-    - SDWebImage/Core
-    - SwiftLint
+  - TapBundleLocalizationV2 (0.0.3)
+  - TapNetworkManagerV2 (0.0.6):
     - TapAdditionsKitV2
-  - TapNibViewV2 (0.0.1):
-    - SwiftLint
+  - TapNibViewV2 (0.0.3):
     - TapAdditionsKitV2
-  - TapSwiftFixes/Exceptions (1.0.9)
-  - TapSwiftFixes/Threading (1.0.9)
-  - TapVisualEffectViewV2 (0.0.1):
+  - TapSwiftFixesV2 (1.0.3):
+    - TapSwiftFixesV2/CoreGraphics (= 1.0.3)
+    - TapSwiftFixesV2/Exceptions (= 1.0.3)
+    - TapSwiftFixesV2/Threading (= 1.0.3)
+  - TapSwiftFixesV2/CoreGraphics (1.0.3)
+  - TapSwiftFixesV2/Exceptions (1.0.3)
+  - TapSwiftFixesV2/Threading (1.0.3)
+  - TapVisualEffectViewV2 (0.0.4):
     - TapAdditionsKitV2
     - TapNibViewV2
 
 DEPENDENCIES:
-  - SwiftLint
   - TapAdditionsKitV2
   - TapAlertViewControllerV2
   - TapApplicationV2
-  - TapBundleLocalization
+  - TapBundleLocalizationV2
   - TapNetworkManagerV2
 
 SPEC REPOS:
   trunk:
-    - SDWebImage
-    - SwiftLint
     - TapAdditionsKitV2
     - TapAlertViewControllerV2
     - TapApplicationV2
-    - TapBundleLocalization
+    - TapBundleLocalizationV2
     - TapNetworkManagerV2
     - TapNibViewV2
-    - TapSwiftFixes
+    - TapSwiftFixesV2
     - TapVisualEffectViewV2
 
 SPEC CHECKSUMS:
-  SDWebImage: a990c053fff71e388a10f3357edb0be17929c9c5
-  SwiftLint: 1216c910d27c2633ade33b4f071bb6b930982e62
-  TapAdditionsKitV2: 5752ee6837d690d4f38449d83155ab631fc4fc13
-  TapAlertViewControllerV2: 623e99c9c4cdc8423e440bd61749fd28c047465b
-  TapApplicationV2: d5299d0f5bac323ece9a3f03605d8ab0b59d4b66
-  TapBundleLocalization: c7d7c14850223b0ef447aca1269d7308f78d54f9
-  TapNetworkManagerV2: 13c970d1fdb0f3f54065e8b608db3917e89c7d07
-  TapNibViewV2: 38cd87dea5d868139df922bbeae4fed9724f65e1
-  TapSwiftFixes: db2aeb21942dd81ee051a31ed319dab0d03547a2
-  TapVisualEffectViewV2: cc7fbccbbf7f9d54a8722e78f3f0395ea8732e0d
+  TapAdditionsKitV2: 0bb217062d4df1db86b339e7693283b293b0ccff
+  TapAlertViewControllerV2: ac8bf77da5abffb8fdb2e3657bdb22cce55b8c37
+  TapApplicationV2: a5e256888515be65654f048605bfb871a5ad53a9
+  TapBundleLocalizationV2: 282e5a0ebfd08b502ec2ba22dde8da2de7340110
+  TapNetworkManagerV2: 73a80838e7a30bd05e1030ff4b751421f14774a6
+  TapNibViewV2: a6df9bfe0a36dfa9039b8200f2921dd5f66874c5
+  TapSwiftFixesV2: ea726f752b6259d9e44624039fd6bad94b2a8633
+  TapVisualEffectViewV2: bc2b3b718acc3c1298ce7d21985633941d986345
 
-PODFILE CHECKSUM: 0aa4fbd4067cf418f57685b1f47e9cf43f4554bf
+PODFILE CHECKSUM: 9ff026255fbf618757fb0f5af7e7b5a0a506fd83
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.12.1

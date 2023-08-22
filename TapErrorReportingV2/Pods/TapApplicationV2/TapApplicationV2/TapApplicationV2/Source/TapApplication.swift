@@ -5,7 +5,7 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
-import func     TapSwiftFixes.performOnMainThread
+import func     TapSwiftFixesV2.performOnMainThread
 import struct   TapAdditionsKitV2.TypeAlias
 import class    UIKit.UIApplication.UIApplication
 import enum     UIKit.UIApplication.UIInterfaceOrientation

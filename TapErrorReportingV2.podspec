@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TapErrorReportingV2"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.5"
   spec.summary      = "Tap error reporting library"
 
   # This description is used to generate tags and improve search results.
@@ -63,7 +63,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "10.0"
+  spec.platform     = :ios, "11.0"
   spec.swift_versions = ['4.0', '4.2', '5.0']
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -134,6 +134,6 @@ Pod::Spec.new do |spec|
   spec.dependency "TapAdditionsKitV2"
   spec.dependency "TapAlertViewControllerV2"
   spec.dependency "TapApplicationV2"
-  spec.dependency "TapBundleLocalization"
+  spec.dependency "TapBundleLocalizationV2"
   spec.dependency "TapNetworkManagerV2"
 end

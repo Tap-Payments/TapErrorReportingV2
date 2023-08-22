@@ -9,7 +9,7 @@ import class	TapAdditionsKitV2.SeparateWindowRootViewController
 import struct	TapAdditionsKitV2.TypeAlias
 import TapAlertViewControllerV2
 import class	TapApplicationV2.TapApplicationPlistInfo
-import class	TapBundleLocalization.LocalizationProvider
+import class	TapBundleLocalizationV2.LocalizationProvider
 import TapNetworkManagerV2
 import class	UIKit.UIAlertController.UIAlertAction
 import class	UIKit.UIAlertController.UIAlertController
